@@ -99,7 +99,7 @@ task.spawn(function()
 		if getgenv().crystalOn then
 			if #getgenv().crystals == 0 then
 				if syn then
-					syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/user/script.lua'))()")
+					syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Pookie-Pepelss/Sentinel/refs/heads/main/RACDAS%20Crystal%20Farm.luau'))()")
 				end
 				TeleportService:Teleport(PLACE_ID, LocalPlayer)
 				break
